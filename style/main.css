@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@600&display=swap');
+:root {
+  /* Cores pricipais a se usar */
+  --cor-principal: #F6F6F6;
+  --cor-secundaria: #5C8374;
+  --cor-terciaria: #9EC8B9;
+
+  /* Fontes nas quais se vai usar */
+  --fonte-principal: 'Roboto Flex', sans-serif;
+  --fonte-secundario: 'Anek Kannada', sans-serif;
+  --fonte-terciario: 'Roboto Flex', sans-serif;
+  --fonte-quartenaria: 'Krona One', sans-serif;
+
+  /* Tamanho da fonte no documento todo */
+  font-size: 24px;
+}
+
+
+/* Conteudo do texto de apresentação do meu arquivo principal
+-------------------------------------------------------------- */
+.titulo{
+  width: auto;
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: var(--fonte-terciario);
+  font-weight: 400;
+  font-size: 4em;
+  color: var(--cor-principal);
+}
+
+.container{
+  padding: 5% 15%;
+}
+
+.conteudo{
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
+.conteudo__apresentacao{
+  width: 555px;
+  color: var(--cor-principal);
+}
+
+.conteudo__apresentacao  h2{
+  color: var(--cor-terciaria);
+  font-family: var(--fonte-quartenaria);
+  font-size: 1.5em;
+}
+.conteudo__text__destaq{
+  color: var(--cor-secundaria);
+}
+
+.conteudo__apresentacao  p{
+  font-family: var(--fonte-secundario);
+  font-weight: 600;
+}
+
+/* Configuração da imagem junto com animação
+--------------------------------------------- */
+.conteudo__img {
+  border-radius: 270px;
+  transition: .2s;
+}
+
+.conteudo__img:hover {
+  border-radius: 4%;
+  transition: .5s;
+}
+
+/* Conteudo do Rodapé do documento
+----------------------------------- */
+.rodape{
+  padding: 18px 316px;
+  background-color: #1B4242;
+
+  display: flex;
+  justify-content: center;
+  gap: 3.13rem;
+}
+.rodape h2{
+  font-family: var(--fonte-principal);
+  color: var(--cor-principal);
+}
+
+.rodape__link{
+  font-family: var(--fonte-principal);
+  font-size: 0.833rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--cor-principal);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

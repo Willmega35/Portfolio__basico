@@ -5,19 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
   <link rel="stylesheet" href="style/ancora.css">
+  <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
   <header></header>
-  <main>
-    <h1>Meu portfólio</h1>
+  <main class="container">
+    <h1 class="titulo">Meu portfólio</h1>
 
-    <h2>Bem vindo ao meu portfólio profissional da área de Tecnologia</h2>
-    <p>Sou Willard, apaixonado por transformar ideias em interfaces incríveis. Desenvolvedor front-end especializado em React, Angular e Typescript, com domínio sólido em HTML, CSS e JavaScript. Pronto para levar sua equipe ao próximo nível com inovação e expertise tecnológica</p>
-
-    <img src="img/Foto--perfil.jpg" alt="">
+    <div class="conteudo">
+      <section class="conteudo__apresentacao">
+        <h2>Bem vindo ao meu <section class="conteudo__text__destaq">portfólio profissional da área de Tecnologia</section></h2>
+        <p>Sou Willard, apaixonado por transformar ideias em interfaces incríveis. Desenvolvedor front-end especializado em React, Angular e Typescript, com domínio sólido em HTML, CSS e JavaScript. Pronto para levar sua equipe ao próximo nível com inovação e expertise tecnológica</p>
+      </section>
+      <img class="conteudo__img" src="img/Foto--perfil.jpg" alt="Minha foto de Perfil">
+    </div>
   </main>
-  <footer>  
+
+  <footer class="rodape">  
     <h2>Desenvolvido por Willard</h2>
+    <a class="rodape__link" href="https://www.linkedin.com/in/willard-silveira-morais" target="_blank" rel="noopener">
+      <img src="img/linkedin.png" alt="" height="34">
+      <span>Linkedim</span>
+    </a>
+    <a class="rodape__link" href="https://github.com/Willmega35" target="_blank" rel="noopener">
+      <img src="img/github.png" alt="" height="34">
+      <span>GitHub</span>
+    </a>
   </footer>
 </body>
 </html>
