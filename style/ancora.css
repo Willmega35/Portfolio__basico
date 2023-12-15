@@ -28,7 +28,6 @@ body {
 }
 
 .titulo{
-  width: auto;
   text-align: center;
   font-family: var(--fonte-principal);
   font-weight: 400;
@@ -49,5 +48,11 @@ body {
 
 .menu__link > li{
   margin-right: 30px;
+}
 
+.__links{
+  font-family: var(--fonte-secundario);
+  text-decoration: none;
+  color: #f6f6f6;
+  cursor: pointer;
 }
