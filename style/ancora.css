@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Ranga&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,800&display=swap');
+:root{
+  /* Fontes nas quais se vai usar */
+  --fonte-principal: 'Ranga', cursive;
+  --fonte-secundario: 'Roboto Flex', sans-serif;
+  --fonte-terciario: 'Asap', sans-serif;
+
+  /* Tamanho da fonte no documento todo */
+  font-size: 24px;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -6,4 +17,37 @@
 body {
   box-sizing: content-box;
   background-color: #092635;
+}
+
+.cabecalho{
+  margin: 1% 3% 0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo{
+  width: auto;
+  text-align: center;
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  font-size: 4em;
+  color: #f6f6f6;
+}
+
+/* Estilizção do link 
+--------------------------*/
+
+.menu__link{
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.menu__link > li{
+  margin-right: 30px;
+
 }

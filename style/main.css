@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Ranga&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,800&display=swap');
 :root {
   /* Cores pricipais a se usar */
   --cor-principal: #F6F6F6;
@@ -9,10 +6,9 @@
   --cor-terciaria: #9EC8B9;
 
   /* Fontes nas quais se vai usar */
-  --fonte-principal: 'Roboto Flex', sans-serif;
-  --fonte-secundario: 'Anek Kannada', sans-serif;
-  --fonte-terciario: 'Roboto Flex', sans-serif;
-  --fonte-quartenaria: 'Krona One', sans-serif;
+  --fonte-principal: 'Ranga', cursive;
+  --fonte-secundario: 'Roboto Flex', sans-serif;
+  --fonte-terciario: 'Asap', sans-serif;
 
   /* Tamanho da fonte no documento todo */
   font-size: 24px;
@@ -21,18 +17,8 @@
 
 /* Conteudo do texto de apresentação do meu arquivo principal
 -------------------------------------------------------------- */
-.titulo{
-  width: auto;
-  margin-bottom: 3%;
-  text-align: center;
-  font-family: var(--fonte-terciario);
-  font-weight: 400;
-  font-size: 4em;
-  color: var(--cor-principal);
-}
-
 .container{
-  padding: 5% 15%;
+  margin: 5% 15%;
 }
 
 .conteudo{
@@ -45,21 +31,23 @@
   color: var(--cor-principal);
 }
 
-.conteudo__apresentacao  h2{
+.conteudo__apresentacao > h2{
   color: var(--cor-terciaria);
   font-family: var(--fonte-quartenaria);
-  font-size: 1.5em;
+  text-align: justify;
+  font-size: 2em;
 }
 .conteudo__text__destaq{
   color: var(--cor-secundaria);
 }
 
-.conteudo__apresentacao  p{
+.conteudo__apresentacao > p{
+  font-size: 1.5em;
   font-family: var(--fonte-secundario);
   font-weight: 600;
 }
 
-/* Configuração da imagem junto com animação
+/* Configuração da imagem e animação
 --------------------------------------------- */
 .conteudo__img {
   border-radius: 270px;
