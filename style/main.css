@@ -60,31 +60,3 @@
   border-radius: 4%;
   transition: .5s;
 }
-
-/* Conteudo do Rodapé do documento
------------------------------------ */
-.rodape{
-  padding: 18px 316px;
-  background-color: #1B4242;
-
-  display: flex;
-  justify-content: center;
-  gap: 3.13rem;
-}
-.rodape h2{
-  font-family: var(--fonte-principal);
-  color: var(--cor-principal);
-}
-
-.rodape__link{
-  font-family: var(--fonte-secundario);
-  font-size: 0.833rem;
-  font-weight: 400;
-  text-decoration: none;
-  color: var(--cor-principal);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
