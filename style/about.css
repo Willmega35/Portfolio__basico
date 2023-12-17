@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Ranga&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,800&display=swap');
+
+.container{
+  margin: 5% 10%;
+}
+
+/* Configuração do Conteudo
+---------------------------- */
+.conteudo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 5%;
+}
+
+.conteudo__apresentacao > h2{
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 2.66em;
+  font-weight: 600;
+  color: #5C8374;
+}
+
+.conteudo__apresentacao > p{
+  font-family: 'Asap', sans-serif;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #f6f6f6;
+}
+/* Configuração da imagem e animação
+--------------------------------------------- */
+.conteudo__img {
+  /* margin: auto 0; */
+  margin-top: 10%;
+  height: 20rem;
+  border-radius: 270px;
+  transition: .2s;
+}
+
+.conteudo__img:hover {
+  border-radius: 4%;
+  transition: .5s;
+}
