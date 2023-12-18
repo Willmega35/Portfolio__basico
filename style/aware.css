@@ -1,0 +1,24 @@
+.container{
+  height: auto;
+  color: #f6f6f6;
+}
+
+.conteudo{
+  margin: 7% 3%;
+}
+
+.__titule{
+  padding: 15px;
+  background-color: #1B4242;
+  border-radius: 50px;
+  font: italic 500 1.66em var(--fonte-secundario);
+}
+
+.__titule_my-awere {
+  padding: 1% 5%;
+  font: 1.33em var(--fonte-terciario);
+}
+
+.__titule_my-awere li {
+  padding: 10px;
+}
