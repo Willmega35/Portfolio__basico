@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Ranga&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,800&display=swap');
-:root {
-  /* Cores pricipais a se usar */
-  --cor-principal: #F6F6F6;
-  --cor-secundaria: #5C8374;
-  --cor-terciaria: #9EC8B9;
-
-  /* Fontes nas quais se vai usar */
-  --fonte-principal: 'Ranga', cursive;
-  --fonte-secundario: 'Roboto Flex', sans-serif;
-  --fonte-terciario: 'Asap', sans-serif;
-
-  /* Tamanho da fonte no documento todo */
-  font-size: 24px;
-}
+@import url("ancora.css");
 
 /* Conteudo do texto de apresentação do meu arquivo principal
 -------------------------------------------------------------- */
