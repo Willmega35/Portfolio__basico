@@ -1,46 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio</title>
-
-  <link rel="stylesheet" href="style/style.css">
+  <title>Portifolio</title>
+  <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
   <header class="cabecalho">
-    <h1 class="titulo">Meu portfólio</h1>
+    <h1 class="cabecalho__titulo">Meu Portifolio</h1>
 
-    <nav class="menu">
-      <ul class="menu__link">
-        <li><a class="__links" href="index.html">Home</a></li>
-        <li><a class="__links" href="about.html">Sobre mim</a></li>
-        <li><a class="__links" href="my-aware.html">Meus Conhecimentos</a></li>
-        <li><a class="__links" href="experiences.html">Experiencia</a></li>
+    <nav class="cabecalho__menu">
+      <ul class="menu">
+        <li class="menu__link"><a href="#">Home</a></li>
+        <li class="menu__link"><a href="#">Sobre Mim</a></li>
+        <li class="menu__link"><a href="#">Meus Conhecimentos</a></li>
+        <li class="menu__link"><a href="#">Experiencias</a></li>
       </ul>
     </nav>
   </header>
+
   <main class="container">
-
-    <div class="conteudo">
-      <section class="conteudo__apresentacao">
-        <h2>Bem vindo ao meu <span class="conteudo__text__destaq">portfólio profissional da área de Tecnologia</span></h2>
-        <p>Sou Willard, apaixonado por transformar ideias em interfaces incríveis. Desenvolvedor front-end especializado em React, Angular e Typescript, com domínio sólido em HTML, CSS e JavaScript. Pronto para levar sua equipe ao próximo nível com inovação e expertise tecnológica</p>
-      </section>
-      <img class="conteudo__img" src="img/Foto--perfil.jpg" alt="Minha foto de Perfil">
+    <div class="container__apresentacao">
+      <h2 class="apresentacao__titulo">Bem vindo ao meu <span class="titulo__destaque">portfólio profissional da área de Tecnologia</span></h2>
+      <p class="apresentacao__texto">Sou Willard, apaixonado por transformar ideias em interfaces incríveis. Desenvolvedor front-end especializado em React, Angular e Typescript, com domínio sólido em HTML, CSS e JavaScript. Pronto para levar sua equipe ao próximo nível com inovação e expertise tecnológica.</p>
     </div>
+    <figure class="container__imagem">
+      <img src="img/Foto--perfil.jpg" alt="Minha foto de perfil" class="imagem__photo">
+      <figcaption class="imagem__description">Minha foto Perfil</figcaption>
+    </figure>
   </main>
-
-  <footer class="rodape">  
-    <h2>Desenvolvido por Willard</h2>
-    <a class="rodape__link" href="https://www.linkedin.com/in/willard-silveira-morais" target="_blank" rel="noopener">
-      <img src="img/linkedin.png" alt="" height="34">
-      <span>Linkedim</span>
-    </a>
-    <a class="rodape__link" href="https://github.com/Willmega35" target="_blank" rel="noopener">
-      <img src="img/github.png" alt="" height="34">
-      <span>GitHub</span>
-    </a>
+  <footer class="rodape">
+    <h2 class="rodape__titulo">Desenvolvido por Willard</h2>
+    <ul class="rodape__redes">
+      <li class="redes__item">
+        <a href="#">
+          <img src="img/linkedin.svg" alt="Logo do Linkedin">
+          Linkedim
+        </a>
+      </li>
+      <li class="redes__item">
+        <a href="#">
+          <img src="img/Github.svg" alt="Logo do GitHub">
+          GitHub
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>

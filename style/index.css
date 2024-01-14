@@ -1,0 +1,54 @@
+@import url('componets.css/ancora.css');
+@import url('componets.css/cabeçalho.css');
+@import url('componets.css/rodape.css');
+
+body{
+  background-color: var(--background);
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3%;
+  height: 60vh;
+}
+
+.container__apresentacao{
+  margin: 0 7%;
+  width: 40%;
+  height: 50vh;
+}
+
+.apresentacao__titulo{  
+  font: 800 2em var(--font-terciaria);
+  color: var(--verde-primario);
+  text-align: justify;
+  /* width: 50%; */
+}
+
+.titulo__destaque{color: var(--verde-secundario);}
+
+.apresentacao__texto{
+  font: 1.5em var(--font-terciaria);
+  color: var(--branco-secundario);
+}
+
+.container__imagem{
+  text-align: center;
+}
+.imagem__photo{
+  border-radius: 50%;
+  transition: border-radius 0.75s;
+}
+
+.imagem__photo:hover{
+  border-radius: 5%;
+}
+
+.imagem__description{
+  margin-top: 12px;
+  color: var(--branco-secundario);
+  font: 400 0.75em var(--font-secundaria);
+}
+
