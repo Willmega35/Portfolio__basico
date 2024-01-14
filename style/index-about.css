@@ -7,35 +7,38 @@ body{
 }
 
 .container{
+  box-sizing: border-box;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin: 3%;
-  height: 60vh;
+  margin: 1.5%;
+  height: 65vh;
 }
 
 .container__apresentacao{
-  margin: 0 7%;
-  width: 40%;
+  /* margin: 0 7%; */
+  width: 50%;
   height: 50vh;
 }
 
 .apresentacao__titulo{  
-  font: 800 2em var(--font-terciaria);
+  font: 800 2.5em var(--font-terciaria);
   color: var(--verde-primario);
   text-align: justify;
   /* width: 50%; */
 }
 
-.titulo__destaque{color: var(--verde-secundario);}
+.titulo__destaque{ color: var(--verde-secundario); }
 
 .apresentacao__texto{
+  box-sizing: border-box;
   font: 1.5em var(--font-terciaria);
   color: var(--branco-secundario);
+  height: auto;
 }
 
 .container__imagem{
   text-align: center;
+  height: auto;
 }
 .imagem__photo{
   border-radius: 50%;
@@ -51,4 +54,5 @@ body{
   color: var(--branco-secundario);
   font: 400 0.75em var(--font-secundaria);
 }
+/* configuração do About */
 
