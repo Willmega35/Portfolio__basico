@@ -1,0 +1,29 @@
+@import url('componets.css/ancora.css');
+@import url('componets.css/cabeçalho.css');
+@import url('componets.css/rodape.css');
+
+body{background-color: var(--background);}
+
+.container {
+  margin: 5%;
+}
+
+.container__know{
+  list-style: inside;
+  padding: 20px 0;
+  color: var(--branco-secundario);
+}
+
+.know__titulo{
+  list-style: none;
+  background-color: var(--rodape);
+  padding: 23px;
+  margin: 1em 0;
+  border-radius: 25px;
+  font: 400 1.66em var(--font-secundaria);
+}
+
+.know__item{
+  padding: 22px 1.5em 0;
+  font: italic 400 1.33em var(--font-terciaria);
+}
