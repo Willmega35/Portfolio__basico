@@ -10,7 +10,6 @@
 .cabecalho__titulo{
 	color: var(--branco-principal);
 	font: 4em var(--font-principal);
-
 }
 
 .menu{
@@ -21,7 +20,7 @@
 .menu__link > a{
 	text-decoration: none;
 	color: var(--branco-principal);
-	font: 1em var(--font-secundaria);
+	font: 500 1em var(--font-secundaria);
 	border-radius: 12px;
 	padding: 5px 12px;
 	transition: background-color .5s;

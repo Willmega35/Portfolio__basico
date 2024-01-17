@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.project__link{
+  display: flex;
+  position: relative;
+  visibility: collapse;
+  left: 30px;
+  bottom: 75px;
+}
+
+.project{ transition: transform .8s;}
+
+.project:hover{
+  transform: scale(1.20);
+}
+
+.project:hover .project__link{
+  visibility: visible;
+  gap: 2vw;
+}
+
+.project__img{
+  transition: .5s;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  font: 500 1.16em var(--font-secundaria);
+  background-color: var(--botao-project);
+  padding: 10px 15px;
+  border-radius: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  transition: transform 0.5s ease-out;
+}
+
+.link:hover{
+  transform: scale(1.15);
+}
+
+.link__image{
+  width: 32px;
+}
+
+.project:hover .project__img{
+  border-radius: 26px;
+}

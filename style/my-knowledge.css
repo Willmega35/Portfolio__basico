@@ -5,7 +5,7 @@
 body{background-color: var(--background);}
 
 .container {
-  margin: 5%;
+  margin: 2% 5%;
 }
 
 .container__know{

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Ranga&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,500&family=Ranga&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap');
 
 
 :root{
@@ -16,6 +16,7 @@
 	--verde-primario: #9EC8B9;
 	--verde-secundario: #5C8374;
 	--rodape: #1b4242;
+	--botao-project: #D9D9D9;
 
 	font-size: 24px;
 }

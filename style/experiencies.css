@@ -1,0 +1,29 @@
+@import url('componets.css/ancora.css');
+@import url('componets.css/cabeçalho.css');
+@import url('componets.css/quadrodi.css');
+@import url('componets.css/rodape.css');
+
+body{ background-color: var(--background);}
+
+.container{
+  padding: 0 3em;
+}
+
+.container__titulo{
+  background-color: var(--rodape);
+  color: var(--branco-secundario);
+  margin: 2em 5.5em 50px;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+
+  font: 400 1.66em var(--font-secundaria);
+}
+
+.container__project{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container__imagem{
+  text-align: center;
+}
